@@ -1,18 +1,25 @@
 import React from 'react'
-import { Flag } from 'semantic-ui-react'
+import { Embed, Segment } from 'semantic-ui-react'
 
 class References extends React.Component {
   render() {
     return(
-      <div>
-        <Flag name="canada"/>
+      <Segment>
         <h1>References</h1>
-        <ul style="list-style-type:circle">
-          
+        <ul>
+          <li>
+            <Embed id="GLR6t3cowDI" source="youtube"/>
+          </li>
+          <li>
+            <Embed id="GLR6t3cowDI" source="youtube"/>
+          </li>
+          <li>
+            <Embed id="GLR6t3cowDI" source="youtube"/>
+          </li>
         </ul>
-      </div>
+      </Segment>
     )
   }
 }
 
-export default Home
+export default References

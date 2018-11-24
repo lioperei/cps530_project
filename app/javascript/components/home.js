@@ -1,12 +1,12 @@
 import React from 'react'
-import { Flag } from 'semantic-ui-react'
+import { Flag, Button, Segment } from 'semantic-ui-react'
 
 class Home extends React.Component {
   render() {
     return(
-      <div>
-        <Flag name="canada"/>This is the home page.
-      </div>
+      <Segment>
+        This is the CPS530 project page and stuff.
+      </Segment>
     )
   }
 }
