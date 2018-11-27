@@ -41,3 +41,5 @@ rails s
 ./bin/webpack-dev-server
  
 View page at localhost:3000
+
+Hello World
