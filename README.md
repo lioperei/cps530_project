@@ -25,9 +25,19 @@ Things you may want to cover:
 
 # Installation requirements
 rvm
+
 ruby 2.5
+
 yarn
 
-# Installation commands
+# Installation commands: Within the same folder
 bundle install
+
 yarn
+
+# Dev servers (In seperate terminals)
+rails s
+
+./bin/webpack-dev-server
+ 
+View page at localhost:3000
