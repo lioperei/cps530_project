@@ -1,17 +1,23 @@
 import React from 'react'
-import { Menu, Flag } from 'semantic-ui-react'
+import { Menu, Icon } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
 class TopBar extends React.Component {
+
   render() {
     return(
         <Menu attached="top" inverted>
           <Link to="/">
             <Menu.Item as="h3" link header>
-              <Flag name="canada"/>
+              <Icon name="home"/>
               CPS 530 Term Project
             </Menu.Item>
           </Link>
+          <Menu.Item>
+            <Link to="/summary">
+              Summary
+            </Link>
+          </Menu.Item>
           <Menu.Item>
             <Link to="/installation">
               Installation
@@ -28,13 +34,8 @@ class TopBar extends React.Component {
             </Link>
           </Menu.Item>
           <Menu.Item>
-            <Link to="/about">
+            <Link to="/credits">
               Credits
-            </Link>
-          </Menu.Item>
-          <Menu.Item>
-            <Link to="/references">
-              References
             </Link>
           </Menu.Item>
         </Menu>

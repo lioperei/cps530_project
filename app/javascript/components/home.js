@@ -2,6 +2,10 @@ import React from 'react'
 import { Segment } from 'semantic-ui-react'
 
 class Home extends React.Component {
+  componentDidMount() {
+    document.title = "CPS 530 Project";
+  };
+
   render() {
     return(
       <Segment>

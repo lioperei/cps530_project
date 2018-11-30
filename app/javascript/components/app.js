@@ -5,9 +5,10 @@ import { Container } from 'semantic-ui-react'
 
 import Home from './home'
 import About from './about'
-import References from './references'
+import Credits from './credits'
 import TopBar from './topbar'
 import Installation from './installation'
+import NotFound from './notFound'
 
 class App extends React.Component {
   render () {
@@ -18,8 +19,9 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/about" component={About}/>
-          <Route exact path="/references" component={References}/>
+          <Route exact path="/credits" component={Credits}/>
           <Route exact path="/installation" component={Installation}/>
+          <Route component={NotFound}/>
         </Switch>
         </Container>
       </div>
