@@ -7,7 +7,7 @@ import Home from './home'
 import About from './about'
 import References from './references'
 import TopBar from './topbar'
-
+import Installation from './installation'
 
 class App extends React.Component {
   render () {
@@ -19,6 +19,7 @@ class App extends React.Component {
           <Route exact path="/" component={Home}/>
           <Route exact path="/about" component={About}/>
           <Route exact path="/references" component={References}/>
+          <Route exact path="/installation" component={Installation}/>
         </Switch>
         </Container>
       </div>

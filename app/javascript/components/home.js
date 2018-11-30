@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flag, Button, Segment } from 'semantic-ui-react'
+import { Segment } from 'semantic-ui-react'
 
 class Home extends React.Component {
   render() {

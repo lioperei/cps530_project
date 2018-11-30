@@ -13,7 +13,7 @@ class TopBar extends React.Component {
             </Menu.Item>
           </Link>
           <Menu.Item>
-            <Link to="/about">
+            <Link to="/installation">
               Installation
             </Link>
           </Menu.Item>
