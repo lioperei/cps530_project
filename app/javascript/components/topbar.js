@@ -14,7 +14,7 @@ class TopBar extends React.Component {
             </Menu.Item>
           </Link>
           <Menu.Item>
-            <Link to="/summary">
+            <Link to="/">
               Summary
             </Link>
           </Menu.Item>
@@ -31,6 +31,11 @@ class TopBar extends React.Component {
           <Menu.Item>
             <Link to="/about">
               Page
+            </Link>
+          </Menu.Item>
+          <Menu.Item>
+            <Link to="/conclusion">
+              Conclusion
             </Link>
           </Menu.Item>
           <Menu.Item>

@@ -8,7 +8,7 @@ class Installation extends React.Component {
 
   render() {
     return(
-      <div>
+      <Segment basic>
         <Segment secondary>
           <Header as="h1">Installation of Rails React Project</Header>
           <Container >
@@ -18,7 +18,6 @@ class Installation extends React.Component {
             <Image src="https://i.imgur.com/r8Hthlh.png" size="large"></Image>
           </Container>
         </Segment>
-        <Divider></Divider>
         <div>
           <Header as="h2">Rails</Header>
           <Container>
@@ -27,12 +26,11 @@ class Installation extends React.Component {
             To install the dependencies of our project we had to install the gem <b>bundler</b>.
              Which installs all the gems located in the file <b>Gemfile</b><br></br>
              <Segment secondary>
-              <b>gem install bundler</b><br></br>
-              
+              <b>gem install bundler</b><br/>
             </Segment>
           </Container>
         </div>
-        <Divider></Divider>
+        <Divider/>
         <div>
           <Header as="h2">React</Header>
           <Container>
@@ -42,12 +40,12 @@ class Installation extends React.Component {
              <Segment secondary>
               <b>curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -</b><br></br>
               <b>echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list</b><br></br>
-              <b>sudo apt update</b><br></br>
-              <b>sudo apt install yarn</b><br></br>
+              <b>sudo apt update</b><br/>
+              <b>sudo apt install yarn</b><br/>
             </Segment>
           </Container> 
         </div>
-        <Divider></Divider>
+        <Divider/>
         <div>
           <Header as="h2">Starting and Running the app</Header>
           <Container>
@@ -55,9 +53,9 @@ class Installation extends React.Component {
             were installed.
              <Segment secondary>
               #Ruby<br></br>
-              <b>bundle install</b><br></br>
-              #Node<br></br>
-              <b>yarn</b><br></br>
+              <b>bundle install</b><br/>
+              #Node<br/>
+              <b>yarn</b>
             </Segment>
             Once dependencies were installed our app can be started with <b>Rails</b>.
             <Segment secondary>
@@ -65,7 +63,8 @@ class Installation extends React.Component {
             </Segment>
           </Container> 
         </div>                
-      </div>
+        <Divider hidden/>
+      </Segment>
     )
   }
 }
