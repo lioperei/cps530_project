@@ -7,8 +7,11 @@ import Summary from './summary'
 import Conclusion from './conclusion'
 import Credits from './credits'
 import TopBar from './topbar'
+import Page from './page';
 import Installation from './installation'
 import NotFound from './notFound'
+
+
 
 class App extends React.Component {
   render () {
@@ -20,6 +23,7 @@ class App extends React.Component {
           <Route exact path="/credits" component={Credits}/>
           <Route exact path="/installation" component={Installation}/>
           <Route exact path="/conclusion" component={Conclusion}/>
+          <Route exact path="/page" component={Page}/>
           <Route component={NotFound}/>
         </Switch>
       </div>
