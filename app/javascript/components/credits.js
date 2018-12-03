@@ -13,6 +13,10 @@ import {
 } from 'semantic-ui-react'
 
 class References extends React.Component {
+  componentDidMount(){
+    document.title = "Credits"
+  }
+  
   render() {
     return (
       <Segment basic>
