@@ -6,7 +6,7 @@ import {
     Image,
     } from 'semantic-ui-react'
 
-class About extends React.Component {
+class Tutorial extends React.Component {
 
     render() {
 
@@ -112,4 +112,4 @@ class About extends React.Component {
     }
 }
 
-export default About
+export default Tutorial
