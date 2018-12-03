@@ -24,7 +24,7 @@ class TopBar extends React.Component {
             </Link>
           </Menu.Item>
           <Menu.Item>
-            <Link to="/about">
+            <Link to="/tutorial">
               Creating a Page
             </Link>
           </Menu.Item>

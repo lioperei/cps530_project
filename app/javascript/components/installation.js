@@ -8,9 +8,14 @@ class Installation extends React.Component {
 
   render() {
     return(
-      <Segment basic>
+      <Segment basic >
         <Segment secondary>
-          <Header as="h1">Installation of Rails React Project</Header>
+          <Header
+            as="h1"
+            style={{textAlign: 'center'}}
+          >
+            Installation of Rails React Project
+          </Header>
           <Container >
             Our platform of choice was <a href="https://www.digitalocean.com/">DigitalOcean</a><br></br>
             DigitalOcean provides <b>Droplets</b> which are servers running <b>Ubuntu 18.04</b> with preconfigured setups.<br></br>
@@ -19,7 +24,7 @@ class Installation extends React.Component {
           </Container>
         </Segment>
         <div>
-          <Header as="h2">Rails</Header>
+          <Header as="h2" style={{textAlign: 'center'}}>Rails</Header>
           <Container>
             The included droplet comes with a running example using <b>Rails 5</b> and <b>Ruby 2.5.1</b> which 
             is the same version as what is used in our app.<br></br>
@@ -32,7 +37,7 @@ class Installation extends React.Component {
         </div>
         <Divider/>
         <div>
-          <Header as="h2">React</Header>
+          <Header as="h2" style={{textAlign: 'center'}}>React</Header>
           <Container>
             The included droplet did not included <b>yarn</b> which is a package manager for 
             node dependencies required for the React side of the application. We had to install yarn 
@@ -47,7 +52,7 @@ class Installation extends React.Component {
         </div>
         <Divider/>
         <div>
-          <Header as="h2">Starting and Running the app</Header>
+          <Header as="h2" style={{textAlign: 'center'}}>Starting and Running the app</Header>
           <Container>
             In order to start the application the code of our project was cloned into our droplet and dependencies
             were installed.
