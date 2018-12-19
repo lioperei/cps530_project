@@ -1,25 +1,12 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+## CPS530 Term project
+### Pages:
+![Summary](https://i.imgur.com/qkUE0V0.png)
+![Installation](https://i.imgur.com/Jf1ttaL.png)
+![Creating a Page](https://i.imgur.com/WZQUvcx.png)
+![Page](https://i.imgur.com/SeWw1pv.png)
+![Conclusion](https://i.imgur.com/dBdk6YT.png)
+![Credits](https://i.imgur.com/C81jgtw.png)
 
 * ...
 
